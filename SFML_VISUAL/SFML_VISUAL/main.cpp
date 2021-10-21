@@ -16,7 +16,7 @@ sf::View playerView;
 //game objects
 int keys[999] = { 0 };
 Time timeSpeed(milliseconds(1000));
-float x = 1000, y = 600, pw = 50,ph = 50, d = 50, speed = 1;
+float x = 1000, y = 600, pw = 50,ph = 50, d = 50, speed = 0.199;
 sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "SFML works!");
 sf::RectangleShape shape(Vector2f(pw, ph));
 PrintableInfo<float> playerInfo;
